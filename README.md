@@ -1,5 +1,7 @@
-# hkscs_unicode_converter
-[![Build Status](https://travis-ci.org/chaklim/hkscs_unicode_converter.svg?branch=master)](https://travis-ci.org/chaklim/hkscs_unicode_converter)
+# hkscs_converter
+This is forked from [hkscs_unicode_converter](https://npmjs.org/hkscs_unicode_converter) because it cannot be run in the browser.
+
+This pre-generates the mappings in the build process to avoid `require('fs')` in runtime.
 
 Convert Unicode characters to HKSCS-2016
 
