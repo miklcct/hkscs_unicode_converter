@@ -5,11 +5,11 @@ Convert Unicode characters to HKSCS-2016
 
 ## Installation
 
-  `npm install hkscs_unicode_converter`
+  `npm install hkscs_converter`
 
 ## Usage
 
-    const hkscsConverter = require('hkscs_unicode_converter');
+    const hkscsConverter = require('hkscs_converter');
 
     const str = hkscsConverter.convertCharacter('');
     const str2 = hkscsConverter.convertString('香');
